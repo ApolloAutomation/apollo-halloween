@@ -1,7 +1,8 @@
 html, body {margin:0; padding:0; height:100%; overflow:auto;}
 body {font-family:sans-serif; text-align:center; background:#001f3f; color:#fff; position:relative; padding-bottom:60px;}
+#header-logo {max-width:400px; margin:20px auto; display:block; z-index:1;}
 body canvas {position:fixed!important; top:0; left:0; width:100%!important; height:100%!important; z-index:-1!important;}
-h1 {margin:1rem 0 .5rem; color:#ff4136; z-index:1;}
+h1 {margin:0.5rem 0; color:#ff4136; z-index:1;}
 #taps {font-size:1.2rem; color:#FFDC00; margin-bottom:1rem; z-index:1;}
 #game-board {display:grid; grid-template-columns:repeat(3,150px); grid-gap:1rem; justify-content:center; margin:1rem auto; z-index:1;}
 .hole {width:150px; height:150px; background:transparent; border:4px solid #fff; border-radius:12px; position:relative; overflow:hidden;}
